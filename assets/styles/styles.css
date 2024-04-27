@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+main {
+    height: 100vh;
+}
+.offcanvas{
+    background-color: #ccafaf;
+}
+ 
+.navbar-button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f6ebe9;
+}
+.dropdown-menu {
+    background-color: #FFC0CB;
+}
+footer{
+    background-color: #bb8789;
+    color:#FFF;
+}
+.navbar {
+    background-color: #bb8789;
+    color: #FFF;
+}
+.footer-logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.footer-button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f6ebe9
+}
+
+
+
+
+
