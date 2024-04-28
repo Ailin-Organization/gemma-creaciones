@@ -7,9 +7,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 100px 1fr 1fr;
 }
-main {
-   
-}
+
 .offcanvas{
     background-color: #ccafaf;
 }
@@ -42,8 +40,9 @@ footer{
 }
 .intro {
     margin: 20px;
-    
-
+}
+.fin {
+    margin: 20px;
 }
 .formulario {
     margin: 3em;
