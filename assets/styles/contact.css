@@ -48,12 +48,24 @@ footer{
 .formulario {
     margin: 3em;
     padding: 1em;
-
+    
 }
+
 .formulario:hover {
     border: 1px solid #bb8789;
     border-radius: 10px;
 }
+.btn-custom {
+    background-color: #bb8789;
+    border-color: #ffc0cb;
+}
+.btn-custom:hover {
+    background-color: #FFC0CB;
+    border-color: #bb8789;
+    color: #000;
+}
+
+
 
 
 

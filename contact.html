@@ -68,39 +68,44 @@
         </div>
         <div class="formulario">
             <h5><strong>Formulario de contacto</strong></h5><br>
-            <div class="row">
-                <div class="col">
-                    <label for="nombre">Nombre</label><br>
-                    <input type="text" class="form-control" id="nombre" placeholder="Sofía" aria-label="First name">
+            <form action="contact.html">
+                <div class="row">
+                    <div class="col">
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" class="form-control" id="nombre" placeholder="Sofía" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="apellido">Apellido</label><br>
+                        <input type="text" class="form-control" id="apellido" placeholder="Fernandez"
+                            aria-label="Last name">
+                    </div>
                 </div>
-                <div class="col">
-                    <label for="apellido">Apellido</label><br>
-                    <input type="text" class="form-control" id="apellido" placeholder="Fernandez"
-                        aria-label="Last name">
+
+                <div class="mb-3">
+                    <br><label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="sofiafer@gmail.com">
                 </div>
-            </div>
 
-            <div class="mb-3">
-                <br><label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sofiafer@gmail.com">
-            </div>
+                <div class="col">
+                    <label for="telefono">Telefono</label><br>
+                    <input type="tel" class="form-control" id="telefono" placeholder="3704987654"
+                        aria-label="telefono"><br>
+                </div>
 
-            <div class="col">
-                <label for="telefono">Telefono</label><br>
-                <input type="tel" class="form-control" id="telefono" placeholder="3704987654" aria-label="telefono"><br><br>
-            </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dinos qué te gustaría saber</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Dinos qué te gustaría saber</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepto recibir notificaciones sobre nuevos
+                        productos
+                        y ofertas.</label>
+                </div>
 
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Acepto recibir notificaciones sobre nuevos productos
-                    y ofertas.</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary btn-custom">Enviar</button>
             </form>
 
 
