@@ -1,0 +1,69 @@
+
+body{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+}
+
+.offcanvas{
+    background-color: #ccafaf;
+}
+.navbar-button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f6ebe9;
+}
+.dropdown-menu {
+    background-color: #FFC0CB;
+}
+footer{
+    background-color: #bb8789;
+    color:#FFF;
+}
+.navbar {
+    background-color: #bb8789;
+    color: #FFF;
+}
+.footer-logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.footer-button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f6ebe9
+}
+main {
+    margin: 6em;
+}
+.intro {
+    text-align: center;
+}
+
+.formulario {
+    padding: 1em;
+    
+}
+
+.formulario:hover {
+    border: 1px solid #bb8789;
+    border-radius: 10px;
+}
+.btn-custom {
+    background-color: #bb8789;
+    border-color: #ffc0cb;
+}
+.btn-custom:hover {
+    background-color: #FFC0CB;
+    border-color: #bb8789;
+    color: #000;
+}
+
+
+
+
+
+
+
