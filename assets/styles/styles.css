@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
 }
 main {
-    height: 100vh;
+    min-height: calc(100vh - 250px);
 }
 .offcanvas{
     background-color: #ccafaf;
@@ -34,7 +34,50 @@ footer{
     border-radius: 5px;
     background-color: #f6ebe9
 }
+.carousel-inner{
+    padding-top: 50px;
+}
+.card-button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #bb8789;
+}
+.card-inicio{
+    border: 1px solid #9b7e80;
+    border-radius: 3px;
+}
+.card-img-top{
+    border-radius: 3px;
+}
 
+
+.text-container{
+    padding: 10px;
+}
+h3 {
+    text-align: center;;
+  }
+  h3.linea {
+    position: relative;
+    z-index: 1;
+  }
+  h3.linea:before {
+    border-top: 2px solid #ccafaf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+  }
+  h3.linea span {
+  
+    background: #fff;
+    padding: 0 15px;
+  }
 
 
 
