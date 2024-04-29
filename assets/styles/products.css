@@ -1,3 +1,9 @@
+.card-button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #bb8789;
+}
+
 h3 {
     text-align: center;;
 }
